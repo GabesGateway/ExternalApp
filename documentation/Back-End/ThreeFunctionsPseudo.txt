@@ -1,0 +1,85 @@
+Three Major Functions Pseudocode
+
+
+
+-Search Bar/Working Filters
+Class Product
+{
+	Name;
+	RefNo;
+	Price;
+	Stock -> Inverntory;
+	Tags
+	{
+		If Tags is true;
+			Display;
+	}
+	inCart?
+}
+List of Products
+Search list of products, if the name of a product matches the input, display it.
+If there are no matches, display similar products with similar spelling
+Display products with similar tags.
+}
+
+-Account Registration
+Redirected from Login Page
+
+prompt for username
+Validate its not in use
+
+
+prompt for password
+Validate it uses 8 Characters w/ One Capital
+
+prompt for verified password
+
+
+prompt for email
+
+prompt for DOB
+Validate age is over 13
+
+submit button ->Sends link to email
+
+Validate Email
+
+
+-Account
+Class Customer
+{
+	Name;
+	UserID;
+	Address;
+	CC info;
+	Products PastPurchases;
+}
+
+Display Cart
+Search through list of Products
+If inCart? == 1
+Display Item
+
+
+Items You Might Like
+Search through PastPurchases
+Display Products WHERE Tags = PastPurchases.Tags
+
+Account Customization
+Prompt for Credit Card Information
+	Number
+	Exp. Date
+	Billing Zip
+	CCV
+Validate Credit Card Information
+
+Prompt for Address
+	Street Address
+	City
+	State
+	Zip
+Validate Address
+
+
+
+
