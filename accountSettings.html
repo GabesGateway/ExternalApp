@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Account</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-dark text-light darkBlue pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="row menuAdjust">
+                    <!-- Logo Goes Here -->
+                    <a href="home.html">
+                        <img src="IMAGES/GabesGatewayLogos/DataSquid_PurpleWoutline.svg " height="150 " class=" " alt=" ">
+                    </a>
+                    <!-- Drop Down Main Menu -->
+                    <!-- https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp -->
+                    <div class="dropdown ">
+                        <button class="btn text-light navMenu" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-list fa-2x"></i> Menu</button>
+                        <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
+                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Categories</a></li>
+                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Top Deals</a></li>
+                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">What's New</a></li>
+                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Shop By Brand</a></li>
+                        </ul>
+                    </div>
+                    <!-- Search Bar -->
+                    <!-- <div>
+                        <form class="d-flex input-group searchBarAdjust ">
+                            <input type="search " class="form-control rounded " placeholder="Search " aria-label="Search " aria-describedby="search-addon " />
+                            <span class="input-group-text border-0 " id="search-addon ">
+                            <i class="bi bi-search fa-lg "></i>
+                        </span>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Profile & Cart Menus -->
+        <div class="row cartAdjust">
+            <div class="dropdown  ">
+                <button class="btn text-light" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-person-fill fa-2x p-1 "></i> Profile</button>
+                <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
+                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="signIn.html">Sign in</a></li>
+                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="createAccount.html">Create Account</a></li>
+                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="accountSettings.html">Profile Settings</a></li>
+                </ul>
+            </div>
+            <div class="dropdown ">
+                <button class="btn text-light " type="button " id="menu1 " data-toggle="dropdown"><i class="bi bi-cart-fill fa-2x p-1 "></i> Cart
+                <span class="dropDownAdjust"></span></button>
+                <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
+                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- search bar -->
+        <!-- https://codepen.io/gungorbudak/pen/ooKNpz -->
+        <div class="form-group has-search col-md-6 searchBarAdjustmet ">
+            <span class="bi bi-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+
+        <br>
+        <!-- Navigation-->
+        <div class="container d-none d-lg-block ">
+            <ul class="list-group list-group-horizontal-lg mx-auto justify-content-center">
+                <li class="list-group-item bg-transparent border-0 ">
+                    <a href="# " class="text-reset navOptions ">
+                        <p class="text-light ">Categories</p>
+                    </a>
+                </li>
+                <li class="list-group-item bg-transparent border-0 ">
+                    <a href="# " class="text-reset navOptions ">
+                        <p class="text-light ">Shop By Brand</p>
+                    </a>
+                </li>
+                <li class="list-group-item bg-transparent border-0 ">
+                    <a href="# " class="text-reset navOptions ">
+                        <p class="text-light ">Top Deals</p>
+                    </a>
+                </li>
+                <li class="list-group-item bg-transparent border-0 ">
+                    <a href="# " class="text-reset navOptions ">
+                        <p class="text-light ">What's New</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <br>
+
+
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-md-5 col-xl-4">
+                <div class="card">
+                    <div class="card-header purpleHeader text-light" class="">
+                        <h5 class="card-title mb-0">Your Account</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orders & Purchases</li>
+                        <li class="list-group-item">Your Products</li>
+                        <li class="list-group-item">Your Wish List</li>
+                        <li class="list-group-item">Account Settings</li>
+                        <li class="list-group-item">Payment Methods</li>
+                        <li class="list-group-item">Shipping Adresses</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-7 col-xl-8">
+                <div class="card">
+                    <div class="card-header purpleHeader text-light">
+                        <div class="float-left">
+                            <h5>Orders</h5>
+                        </div>
+                        <div class="float-right">
+                            <h6>View All</h6>
+                        </div>
+                    </div>
+                    <div class="card-body"></div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header purpleHeader text-light">
+                        <div class="float-left">
+                            <h5>Your Products</h5>
+                        </div>
+                        <div class="float-right">
+                            <h6>View All</h6>
+                        </div>
+                    </div>
+                    <div class="card-body"></div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header purpleHeader text-light border">
+                        <div class="float-left">
+                            <h5>Account Settings</h5>
+                        </div>
+                        <div class="float-right">
+                            <h6>View All</h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-5">
+                                <div class="row align-items-center shadow p-3 mb-5 bg-white rounded">
+                                    <div class="col-8">
+                                        <h6>About me</h6><br>
+                                        <p>Name</p><br>
+                                        <p>Email</p>
+                                    </div>
+                                    <div><span class="align-middle ">Edit</span></div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row align-items-center shadow p-3 mb-5 bg-white rounded">
+                                    <div class="">
+                                        <h6>Addresses</h6><br>
+                                        <div class="bg-white card addresses-item mb-4 shadow-sm">
+                                            <div class="gold-members p-4">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Nickname</h6>
+                                                        <p>Adress Line </p>
+                                                        <p class="mb-0 text-black font-weight-bold"><a class="text-primary mr-3" data-toggle="modal" data-target="#add-address-modal" href="#"><i class="bi bi-pencil-square"></i> EDIT</a> <a class="text-danger" data-toggle="modal" data-target="#delete-address-modal"
+                                                                href="#"><i class="bi bi-trash-fill"></i> DELETE</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div><span class="align-middle ">Add Address</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- From: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+    <footer class="text-center text-lg-start text-light darkBlue mt-5 ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block ">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-facebook fa-2x p-1 "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-twitter fa-2x p-1 "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-google fa-2x p-1 "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-instagram fa-2x p-1 "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-linkedin fa-2x p-1 "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="bi bi-github fa-2x p-1 "></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class=" ">
+            <div class="container text-center text-md-start mt-5 ">
+                <!-- Grid row -->
+                <div class="row mt-3 ">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 lightPurpleText ">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 ">
+                            <img src="IMAGES/GabesGatewayLogos/DataSquidWhite.svg " height="60 "> Gabe's Gateway
+                        </h6>
+                        <p>
+                            Find all your technology needs in one place.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">
+                            Products
+                        </h6>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Categories</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Top Deals</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">What's New</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Shop By Brand</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-muted ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">
+                            Useful links
+                        </h6>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Pricing</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Settings</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Orders</a>
+                        </p>
+                        <p class="darkPurpleText ">
+                            <a href="#! " class="text-reset ">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">Contact</h6>
+                        <p class="darkPurpleText "><i class="bi bi-map me-3 "></i> Chicago, IL 60655, US</p>
+                        <p class="darkPurpleText ">
+                            <i class="bi bi-envelope me-3 "></i> info@gabesgateway.com
+                        </p>
+                        <p class="darkPurpleText "><i class="bi bi-phone me-3 "></i> + 01 234 567 88</p>
+                        <p class="darkPurpleText "><i class="bi bi-printer me-3 "></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05); ">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold " href="https://gabesgateway.com/ ">GabesGateway.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js "></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+
+
+</body>
+
+</html>
