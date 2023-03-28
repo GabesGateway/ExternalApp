@@ -301,4 +301,23 @@ height: 150px; */
 }
 
 
+/* Profile Settings Page */
+
+.purpleHeader {
+    background-color: #736B92;
+}
+
+.pFontSizeSmall {
+    font-size: 14px;
+}
+
+
+/* Orders Page */
+
+.orderAdjust {
+    background-color: #D3D3D3;
+    min-height: 400px !important;
+}
+
+
 /* Footer */
