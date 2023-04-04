@@ -28,91 +28,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 
 
-    <!-- Nav bar -->
-    <nav class="navbar navbar-dark text-light darkBlue pt-3">
-        <div class="container">
-            <div class="row">
-                <div class="row menuAdjust">
-                    <!-- Logo Goes Here -->
-                    <a href="home.html">
-                        <img src="IMAGES/GabesGatewayLogos/DataSquid_PurpleWoutline.svg " height="150 " class=" " alt=" ">
-                    </a>
-                    <!-- Drop Down Main Menu -->
-                    <!-- https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp -->
-                    <div class="dropdown ">
-                        <button class="btn text-light navMenu" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-list fa-2x"></i> Menu</button>
-                        <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Categories</a></li>
-                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Top Deals</a></li>
-                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">What's New</a></li>
-                            <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Shop By Brand</a></li>
-                        </ul>
-                    </div>
-                    <!-- Search Bar -->
-                    <!-- <div>
-                        <form class="d-flex input-group searchBarAdjust ">
-                            <input type="search " class="form-control rounded " placeholder="Search " aria-label="Search " aria-describedby="search-addon " />
-                            <span class="input-group-text border-0 " id="search-addon ">
-                            <i class="bi bi-search fa-lg "></i>
-                        </span>
-                        </form>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-        <!-- Profile & Cart Menus -->
-        <div class="row cartAdjust ">
-            <div class="dropdown  ">
-                <button class="btn text-light" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-person-fill fa-2x p-1 "></i> Profile</button>
-                <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="signIn.html">Sign in</a></li>
-                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="createAccount.html">Create Account</a></li>
-                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="profile.html">Profile Settings</a></li>
-                </ul>
-            </div>
-            <div class="dropdown ">
-                <button class="btn text-light " type="button " id="menu1 " data-toggle="dropdown"><i class="bi bi-cart-fill fa-2x p-1 "></i> Cart
-                <span class="dropDownAdjust"></span></button>
-                <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                    <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Cart</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- search bar -->
-        <!-- https://codepen.io/gungorbudak/pen/ooKNpz -->
-        <div class="form-group has-search col-md-6 searchBarAdjustmet ">
-            <span class="bi bi-search form-control-feedback"></span>
-            <input type="text" class="form-control" placeholder="Search">
-        </div>
-
-        <br>
-        <!-- Navigation-->
-        <div class="container d-none d-lg-block ">
-            <ul class="list-group list-group-horizontal-lg mx-auto justify-content-center">
-                <li class="list-group-item bg-transparent border-0 ">
-                    <a href="# " class="text-reset navOptions ">
-                        <p class="text-light ">Categories</p>
-                    </a>
-                </li>
-                <li class="list-group-item bg-transparent border-0 ">
-                    <a href="# " class="text-reset navOptions ">
-                        <p class="text-light ">Shop By Brand</p>
-                    </a>
-                </li>
-                <li class="list-group-item bg-transparent border-0 ">
-                    <a href="# " class="text-reset navOptions ">
-                        <p class="text-light ">Top Deals</p>
-                    </a>
-                </li>
-                <li class="list-group-item bg-transparent border-0 ">
-                    <a href="# " class="text-reset navOptions ">
-                        <p class="text-light ">What's New</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!--Navigation bar-->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<!--end of Navigation bar-->
 
     <br>
     <!-- Featured Section  -->
@@ -265,127 +188,7 @@
 
     </div>
 
-    <!-- Footer -->
-    <!-- From: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-    <footer class="text-center text-lg-start text-light darkBlue mt-5 ">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block ">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-facebook fa-2x p-1 "></i>
-                </a>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-twitter fa-2x p-1 "></i>
-                </a>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-google fa-2x p-1 "></i>
-                </a>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-instagram fa-2x p-1 "></i>
-                </a>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-linkedin fa-2x p-1 "></i>
-                </a>
-                <a href=" " class="me-4 text-reset ">
-                    <i class="bi bi-github fa-2x p-1 "></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section class=" ">
-            <div class="container text-center text-md-start mt-5 ">
-                <!-- Grid row -->
-                <div class="row mt-3 ">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 lightPurpleText ">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4 ">
-                            <img src="IMAGES/GabesGatewayLogos/DataSquidWhite.svg " height="60 "> Gabe's Gateway
-                        </h6>
-                        <p>
-                            Find all your technology needs in one place.
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">
-                            Products
-                        </h6>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Categories</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Top Deals</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">What's New</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Shop By Brand</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-muted ">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">
-                            Useful links
-                        </h6>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Pricing</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Settings</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Orders</a>
-                        </p>
-                        <p class="darkPurpleText ">
-                            <a href="#! " class="text-reset ">Help</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4 lightPurpleText ">Contact</h6>
-                        <p class="darkPurpleText "><i class="bi bi-map me-3 "></i> Chicago, IL 60655, US</p>
-                        <p class="darkPurpleText ">
-                            <i class="bi bi-envelope me-3 "></i> info@gabesgateway.com
-                        </p>
-                        <p class="darkPurpleText "><i class="bi bi-phone me-3 "></i> + 01 234 567 88</p>
-                        <p class="darkPurpleText "><i class="bi bi-printer me-3 "></i> + 01 234 567 89</p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05); ">
-            © 2023 Copyright:
-            <a class="text-reset fw-bold " href="https://gabesgateway.com/ ">GabesGateway.com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+    
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js "></script> -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script> -->
@@ -397,6 +200,8 @@
 
     <!-- My script -->
     <script type='text/javascript' src="myScript.js "></script>
+    <script type='text/javascript' src="nav.js"></script>
+    <script type='text/javascript' src="footer.js"></script>
 </body>
 
 </html>

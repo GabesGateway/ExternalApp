@@ -23,3 +23,18 @@ function onChange() {
         confirm.setCustomValidity('Passwords do not match');
     }
 }
+
+function onChange2() {
+    const newPassword = document.querySelector('input[name=newPassword]');
+    const confirmNewPassword = document.querySelector('input[name=confirmNewPassword]');
+    if (confirmNewPassword.value === newPassword.value) {
+        confirmNewPassword.setCustomValidity('');
+    } else {
+        confirmNewPassword.setCustomValidity('Passwords do not match');
+    }
+}
+
+$('#myForm').on('submit', function(e){
+    $('#myModal').modal('show');
+    e.preventDefault();
+  });
