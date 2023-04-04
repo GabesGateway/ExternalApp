@@ -38,8 +38,8 @@ var navbar = `
         <div class="dropdown  ">
             <button class="btn text-light" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-person-fill fa-2x p-1 "></i> Profile</button>
             <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="signIn.html">Sign in</a></li>
-                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="createAccount.html">Create Account</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="accountSettings.html">Profile Settings</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="">Sign Out</a></li>
             </ul>
         </div>
         <div class="dropdown ">
