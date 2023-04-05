@@ -301,6 +301,20 @@ height: 150px; */
 }
 
 
+/* Categories Page */
+
+.img-responsive2 {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 125px;
+}
+
+
 /* Profile Settings Page */
 
 .purpleHeader {
@@ -318,12 +332,16 @@ height: 150px; */
     background-color: #D3D3D3;
     min-height: 400px !important;
 }
-.list-group-item:hover {
-    background-color: #E2D3F4; /* or whatever color you'd like */
-  }
 
-  /* Settings Page */
-  .inputbox {
+.list-group-item:hover {
+    background-color: #E2D3F4;
+    /* or whatever color you'd like */
+}
+
+
+/* Settings Page */
+
+.inputbox {
     margin-top: 12px;
     position: relative
 }
