@@ -7,18 +7,18 @@ var navbar = `
         <div class="row">
             <div class="row menuAdjust">
                 <!-- Logo Goes Here -->
-                <a href="home.html">
-                    <img src="IMAGES/GabesGatewayLogos/DataSquid_PurpleWoutline.svg " height="150 " class=" " alt=" ">
+                <a href="../home.html">
+                    <img src="../IMAGES/GabesGatewayLogos/DataSquid_PurpleWoutline.svg " height="150 " class=" " alt=" ">
                 </a>
                 <!-- Drop Down Main Menu -->
                 <!-- https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp -->
                 <div class="dropdown ">
                     <button class="btn text-light navMenu" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-list fa-2x"></i> Menu</button>
                     <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                        <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="categories.html ">Categories</a></li>
+                        <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="../categories.html ">Categories</a></li>
                         <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">Top Deals</a></li>
                         <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="# ">What's New</a></li>
-                        <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="shopByBrand.html ">Shop By Brand</a></li>
+                        <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="../shopByBrand.html ">Shop By Brand</a></li>
                     </ul>
                 </div>
                 <!-- Search Bar -->
@@ -38,8 +38,8 @@ var navbar = `
         <div class="dropdown  ">
             <button class="btn text-light" type="button" id="menu1" data-toggle="dropdown"><i class="bi bi-person-fill fa-2x p-1 "></i> Profile</button>
             <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
-                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="signIn.html">Sign in</a></li>
-                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="createAccount.html">Create Account</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="../signIn.html">Sign in</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset " href="../createAccount.html">Create Account</a></li>
             </ul>
         </div>
         <div class="dropdown ">
@@ -63,12 +63,12 @@ var navbar = `
     <div class="container d-none d-lg-block ">
         <ul class="list-group list-group-horizontal-lg mx-auto justify-content-center">
             <li class="list-group-item bg-transparent border-0 ">
-                <a href="categories.html " class="text-reset text-decoration-none navOptions ">
+                <a href="../categories.html " class="text-reset text-decoration-none navOptions ">
                     <p class="text-light ">Categories</p>
                 </a>
             </li>
             <li class="list-group-item bg-transparent border-0 ">
-                <a href="shopByBrand.html " class="text-reset text-decoration-none navOptions ">
+                <a href="../shopByBrand.html " class="text-reset text-decoration-none navOptions ">
                     <p class="text-light ">Shop By Brand</p>
                 </a>
             </li>

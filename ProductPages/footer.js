@@ -44,9 +44,9 @@ var footer = `
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 lightPurpleText ">
                         <!-- Content -->
-                        <a href="home.html" class="text-decoration-none text-reset">
+                        <a href="../home.html" class="text-decoration-none text-reset">
                         <h6 class="text-uppercase fw-bold mb-4 ">
-                            <img src="IMAGES/GabesGatewayLogos/DataSquidWhite.svg " height="60 "> Gabe's Gateway
+                            <img src="../IMAGES/GabesGatewayLogos/DataSquidWhite.svg " height="60 "> Gabe's Gateway
                         </h6>
                         </a>
                         <p>
@@ -62,7 +62,7 @@ var footer = `
                             Products
                         </h6>
                         <p class="darkPurpleText ">
-                            <a href="categories.html " class="text-reset ">Categories</a>
+                            <a href="../categories.html " class="text-reset ">Categories</a>
                         </p>
                         <p class="darkPurpleText ">
                             <a href="#! " class="text-reset ">Top Deals</a>
@@ -71,7 +71,7 @@ var footer = `
                             <a href="#! " class="text-reset ">What's New</a>
                         </p>
                         <p class="darkPurpleText ">
-                            <a href="shopByBrand.html " class="text-reset ">Shop By Brand</a>
+                            <a href="../shopByBrand.html " class="text-reset ">Shop By Brand</a>
                         </p>
                     </div>
                     <!-- Grid column -->
