@@ -33,6 +33,10 @@
     font-size: calc(100% + .5vw);
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
 
 /* .searchBarAdjust {
     width: 800px;
@@ -75,6 +79,32 @@
     margin: auto;
 }
 
+
+/* carousel */
+#owl-demo .item, #owl-demo-1 .item{
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    width: 190px;
+}
+.customNavigation{
+  text-align: center;
+}
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* end carousel */
 
 /* Carousel */
 

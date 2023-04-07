@@ -45,6 +45,7 @@ viewedSlider.trigger('next.owl.carousel');
 }
 
 
+
 });
     
 var myLink = document.querySelector('a[href="#"]');
