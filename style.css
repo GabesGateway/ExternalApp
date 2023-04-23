@@ -452,3 +452,8 @@ input[type="submit"] {
 input[type="submit"][disabled] {
     color: #5A5A5A;
 }
+
+.ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
