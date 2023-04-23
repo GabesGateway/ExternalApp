@@ -1,46 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: localhost
--- Generation Time: Apr 20, 2023 at 06:19 PM
--- Server version: 8.0.30
--- PHP Version: 8.0.0
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `gabesgateway_external`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `products`
---
-
-CREATE TABLE `products` (
-  `productID` varchar(100) NOT NULL,
-  `productType` text NOT NULL,
-  `imageLink` varchar(100) NOT NULL,
-  `productDescription` text NOT NULL,
-  `productPrice` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Dumping data for table `products`
---
-
 INSERT INTO `products` (`productID`, `productType`, `imageLink`, `productDescription`, `productPrice`) VALUES
-('1', 'TV(Samsung - 55” Class 7 Series LED 4K UHD Smart Tizen TV)', '', 'Improve your viewing experience with this 55-inch Samsung smart TV. The variety of applications offer easy access to content on popular streaming services, and the intuitive interface makes finding your favorite shows simple.', 380),
+('1', 'TV(Samsung - 55” Class 7 Series LED 4K UHD Smart Tizen TV)', 'IMAGES/tv1.png', 'Improve your viewing experience with this 55-inch Samsung smart TV. The variety of applications offer easy access to content on popular streaming services, and the intuitive interface makes finding your favorite shows simple.', 380),
 ('10', 'Computer(Crucial 64GB (2 x 32GB) DDR4-3200 PC4-25600 CL22 Dual Channel Desktop Memory Kit CT2K32G4DFD832A - Green)', '', 'DDR4-3200 PC4-25600\r\n\r\nCAS Latency 22, Timings 22-22-22\r\n\r\n1.20 Volts\r\n', 155),
 ('11', 'Computer(Logitech G G502 X Plus)', '', 'Wireless RGB Gaming Mouse', 160),
 ('12', 'Computer(Redragon K643 Wireless 90% RGB Backlist Hot-Swappable Mechanical Gaming Keyboard)', '', 'Keyboard Design: Gaming\r\n\r\nKeyboard Color: White\r\n\r\nBacklit Keyboard: RGB Illuminated\r\n\r\nSwitch Type: Red\r\n', 65),
@@ -51,7 +10,7 @@ INSERT INTO `products` (`productID`, `productType`, `imageLink`, `productDescrip
 ('17', 'Phone(Samsung S22)', '', 'Variety of all colors\r\n\r\n256 GB, 128 GB, 512 GB\r\n\r\nMetal glass\r\n\r\nGlass screen protector\r\n\r\n', 640),
 ('18', 'Phone(BlackBerry)', '', '3G Data capable and 4G data capable\r\n\r\nMusic player\r\n\r\n2G,3G,4G \r\n\r\nWi-Fi Capable\r\n', 397),
 ('19', 'Phone(Motorola edge)', '', 'sharp photos \r\n\r\nultra fast\r\n', 178),
-('2', 'TV(Insignia - 58” Class F30 Series LED 4K UHD Smart Fire TV)\r\n', '', 'Take in every moment with breathtaking 4K Ultra HD on this 58-inch screen. It’s equipped with DTS Studio Sound to create realistic and immersive audio. Access live over-the-air channels and streaming—and control it all with your voice. \r\n', 280),
+('2', 'TV(Insignia - 58” Class F30 Series LED 4K UHD Smart Fire TV)\r\n', 'IMAGES/tv3.jpg', 'Take in every moment with breathtaking 4K Ultra HD on this 58-inch screen. It’s equipped with DTS Studio Sound to create realistic and immersive audio. Access live over-the-air channels and streaming—and control it all with your voice. \r\n', 280),
 ('20', 'Phone(Galaxy 23 Ultra)', '', '256 GB\r\n\r\nhigh camera resolution\r\n\r\nNight mode ', 270),
 ('21', 'Audio(Amazon - Echo Dot (3rd Gen))\r\n', '', 'Echo Dot is a voice-controlled Smart Speaker with Alexa, perfect for any room. Just ask for music, news, information, and more.', 40),
 ('22', 'Audio(Bowers & Wilkins - Formation Duo 6-1/2\" Powered Wireless 2-Way Bookshelf Speakers)', '', 'Enjoy impressive sounds with these Bowers and Wilkins Formation Duo speakers. Patented carbon-domed, tweeter-on-top technology provides crystal clear highs, while innovative Continuum cone drivers ensure powerful bass reproduction.', 5000),
