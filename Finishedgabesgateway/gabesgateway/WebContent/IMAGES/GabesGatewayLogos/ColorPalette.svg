@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #736b92;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        fill: #1d5c96;
+      }
+
+      .cls-5 {
+        fill: #e2d3f4;
+      }
+
+      .cls-6 {
+        fill: #2f445c;
+      }
+
+      .cls-7 {
+        fill: #7db0de;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-1" width="100" height="220"/>
+        <rect class="cls-5" x="100" width="100" height="220"/>
+        <rect class="cls-6" x="200" width="100" height="220"/>
+        <rect class="cls-4" x="300" width="100" height="220"/>
+        <rect class="cls-7" x="400" width="100" height="220"/>
+      </g>
+      <text class="cls-3" transform="translate(28.22 103.58)"><tspan x="0" y="0">#736B92</tspan></text>
+      <text class="cls-3" transform="translate(127.91 103.77)"><tspan x="0" y="0">#E2D3F4</tspan></text>
+      <text class="cls-3" transform="translate(227.3 105.77)"><tspan x="0" y="0">#2F445C</tspan></text>
+      <text class="cls-3" transform="translate(327.23 103.77)"><tspan x="0" y="0">#1D5C96</tspan></text>
+      <text class="cls-3" transform="translate(426.67 103.77)"><tspan x="0" y="0">#7DB0DE</tspan></text>
+      <text class="cls-2" transform="translate(27.88 120.02)"><tspan x="0" y="0">#736B92</tspan></text>
+      <text class="cls-2" transform="translate(127.41 120.02)"><tspan x="0" y="0">#E2D3F4</tspan></text>
+      <text class="cls-2" transform="translate(226.8 120.02)"><tspan x="0" y="0">#2F445C</tspan></text>
+      <text class="cls-2" transform="translate(325.73 119.02)"><tspan x="0" y="0">#1D5C96</tspan></text>
+      <text class="cls-2" transform="translate(427.16 120.02)"><tspan x="0" y="0">#7DB0DE</tspan></text>
+    </g>
+  </g>
+</svg>

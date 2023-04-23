@@ -1,0 +1,459 @@
+/*  Colors:
+    #736B92   Dark Purple
+    #E2D3F4   Light Purple
+    #2F445C   Dark Blue
+    #1D5C96   Medium Blue
+    #7DB0DE   Light Blue
+*/
+
+.darkBlue {
+    background-color: #2F445C;
+}
+
+.mediumBlue {
+    background-color: #1D5C96;
+}
+
+.lightPurpleText {
+    color: #E2D3F4;
+}
+
+.darkPurpleText {
+    color: #736B92;
+}
+
+
+/* Nav Bar */
+
+.navOptions {
+    font-size: calc(100% + 1vw);
+}
+
+.navMenu {
+    font-size: calc(100% + .5vw);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+/* .searchBarAdjust {
+    width: 800px;
+    padding-top: 30px;
+} */
+
+.cartAdjust {
+    margin-right: 50px;
+}
+
+.menuAdjust {
+    margin-bottom: -50px;
+    margin-left: 50px;
+}
+
+
+/* search bar */
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.searchBarAdjustmet {
+    /* padding-top: 50px; */
+    margin: auto;
+}
+
+
+/* carousel */
+#owl-demo .item, #owl-demo-1 .item{
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    width: 190px;
+}
+.customNavigation{
+  text-align: center;
+}
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* end carousel */
+
+/* Carousel */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+}
+
+
+/* body {
+font-family: 'Rubik', sans-serif;
+font-size: 14px;
+font-weight: 400;
+background: #eff6fa;
+color: #000000
+} */
+
+div {
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+/* .bbb_viewed {
+padding-top: 51px;
+padding-bottom: 60px;
+background: #eff6fa
+} */
+
+.bbb_main_container {
+    /* background-color: #fff; */
+    padding: 11px;
+}
+
+.bbb_viewed_title_container {
+    border-bottom: solid 1px #dadada
+}
+
+.bbb_viewed_title {
+    margin-bottom: 16px;
+    /* margin-top: 8px; */
+}
+
+.bbb_viewed_nav_container {
+    position: absolute;
+    right: -5px;
+    bottom: 14px
+}
+
+.bbb_viewed_nav {
+    display: inline-block;
+    cursor: pointer
+}
+
+.bbb_viewed_nav i {
+    color: #dadada;
+    font-size: 18px;
+    padding: 5px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.bbb_viewed_nav:hover i {
+    color: #606264
+}
+
+.bbb_viewed_prev {
+    margin-right: 15px
+}
+
+.bbb_viewed_slider_container {
+    padding-top: 13px;
+}
+
+.bbb_viewed_item {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.bbb_viewed_image {
+    /* width: 150px;
+height: 150px; */
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.bbb_viewed_image img {
+    display: block;
+    max-width: 100%
+}
+
+.bbb_viewed_content {
+    width: 100%;
+    margin-top: 25px
+}
+
+.bbb_viewed_price {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500
+}
+
+.bbb_viewed_item.discount .bbb_viewed_price {
+    color: #df3b3b
+}
+
+.bbb_viewed_price span {
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 8px
+}
+
+.bbb_viewed_price span::after {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: 1px;
+    background: #8d8d8d;
+    content: ''
+}
+
+.bbb_viewed_name {
+    margin-top: 3px
+}
+
+.bbb_viewed_name a {
+    font-size: 14px;
+    color: #000000;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.bbb_viewed_name a:hover {
+    color: #0e8ce4
+}
+
+.item_marks {
+    position: absolute;
+    top: 18px;
+    left: 18px
+}
+
+.item_mark {
+    display: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center
+}
+
+.item_discount {
+    background: #df3b3b;
+    margin-right: 5px
+}
+
+.item_new {
+    background: #0e8ce4
+}
+
+.bbb_viewed_item.discount .item_discount {
+    display: inline-block
+}
+
+.bbb_viewed_item.is_new .item_new {
+    display: inline-block
+}
+
+.scrollImages {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+
+/* Categories Page */
+
+.img-responsive2 {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 125px;
+}
+
+/* Shop By Brand */
+.brandImages{
+    object-fit: contain;
+    height: 150px;
+    width: 150px;
+}
+
+.company-header-avatar{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Profile Settings Page */
+
+.purpleHeader {
+    background-color: #736B92;
+}
+
+.pFontSizeSmall {
+    font-size: 14px;
+}
+
+
+/* Orders Page */
+
+.orderAdjust {
+    background-color: #D3D3D3;
+    min-height: 400px !important;
+}
+
+.list-group-item:hover {
+    background-color: #E2D3F4;
+    /* or whatever color you'd like */
+}
+
+
+/* Settings Page */
+
+.inputbox {
+    margin-top: 12px;
+    position: relative
+}
+
+.inputbox input {
+    border: 2px solid #eee;
+    padding: 0 10px
+}
+
+.inputbox input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+    border: 2px solid #0d6efd
+}
+
+.input-tag {
+    position: absolute;
+    top: 27px;
+    left: 7px;
+    width: 32px
+}
+
+.proceed button {
+    height: 50px;
+    font-size: 15px
+}
+
+.form-check-label {
+    font-size: 12px
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #025ce2;
+    border-color: #0257d5;
+    box-shadow: none
+}
+
+.form-check-input {
+    width: 16px;
+    height: 16px;
+    margin-top: 6px
+}
+
+.createAccount {
+    background-color: #1D5C96;
+}
+
+input[type="submit"] {
+    color: white;
+}
+
+input[type="submit"][disabled] {
+    color: #5A5A5A;
+}
+
+.ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
