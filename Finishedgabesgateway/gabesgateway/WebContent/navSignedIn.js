@@ -62,14 +62,50 @@ var navbar = `
     <div class="container d-none d-lg-block ">
         <ul class="list-group list-group-horizontal-lg mx-auto justify-content-center">
             <li class="list-group-item bg-transparent border-0 ">
+            <div class="dropdown ">
                 <a href="categoriesSignedIn.html " class="text-reset text-decoration-none navOptions ">
                     <p class="text-light ">Categories</p>
                 </a>
+                <span class="dropDownAdjust"></span></button>
+            <ul class="dropdown-menu px-2" role="menu " aria-labelledby="menu1 ">
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#tv ">TV</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#compAccess ">Computers & Accessories</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#cameras ">Cameras</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#phones ">Phones & Tablets</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#audio ">Audio</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#gaming ">Gaming & VR</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#movies ">Movies & Music</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#security ">Security & WiFi</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#office ">Office Supplies</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./categoriesSignedIn.html#toys ">Toys & Drones</a></li>
+            </ul>
+            </div>
             </li>
             <li class="list-group-item bg-transparent border-0 ">
+            <div class="dropdown ">
                 <a href="shopByBrandSignedIn.html " class="text-reset text-decoration-none navOptions ">
                     <p class="text-light ">Shop By Brand</p>
                 </a>
+                <span class="dropDownAdjust"></span></button>
+            <ul class="dropdown-menu px-2" role="menu " aria-labelledby="menu1 ">
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#apple ">Apple</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#asus ">Asus</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#canon ">Canon</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#dell ">Dell</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#google ">Google</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#hp ">HP</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#logitech ">Logitech</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#microsoft ">Microsoft</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#nikon ">Nikon</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#nintendo ">Nintendo</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#razer ">Razer</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#redragon ">Redragon</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#ring ">Ring</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#samsung ">Samsung</a></li>
+                <li role="presentation "><a role="menuitem " tabindex="-1 " class="text-reset text-decoration-none" href="./shopByBrandSignedIn.html#sony ">Sony</a></li>
+                
+            </ul>
+            </div>
             </li>
             <li class="list-group-item bg-transparent border-0 ">
                 <a href="# " class="text-reset text-decoration-none navOptions ">

@@ -95,21 +95,24 @@
                             <tr>
                                 <td>
                                     <div class="media align-items-center">
-                                        <img src="IMAGES/ProductImages/office1.png" class="d-block ui-w-40 ui-bordered mr-4" alt="Printer" />
+                                        <img src="IMAGES/office1.png" class="d-block ui-w-40 ui-bordered mr-4" alt="Printer" />
                                         <div>
-                                            <h6>Printer</h6>
-                                            <small class="text-body-secondary">This is the description of the product</small>
+                                            <h6>HP OfficeJet Pro 8034e Wireless Color All-in-One Printer with 1 Full Year Instant Ink</h6>
+                                            <small class="text-body-secondary">
+                                            Fast color print, copy, scan, fax, 2-sided prints, mobile/wireless printing Pro quality color for forms, reports, 
+                                            brochures and presentations Includes 1 full year subscription for Instant Ink delivery service with HP+ activation.
+                                            </small>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    <p class="text-right">$129.99</p>
+                                    <p class="text-right">$260</p>
                                 </td>
                                 <td>
-                                    <p class="text-right">1</p>
+                                    <p class="text-right">2</p>
                                 </td>
                                 <td>
-                                    <p class="text-right">$129.99</p>
+                                    <p class="text-right">$520</p>
                                 </td>
                                 <td>
                                     <div class="media align-items-center">
@@ -121,21 +124,23 @@
                             <tr>
                                 <td>
                                     <div class="media align-items-center">
-                                        <img src="IMAGES/ProductImages/comp1.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="Computer Tower" />
+                                        <img src="IMAGES/comp1.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="Computer Tower" />
                                         <div>
-                                            <h6>Computer Tower</h6>
-                                            <small class="text-body-secondary">This is the description of the product</small>
+                                            <h6>PowerSpec G439 Gaming PC</h6>
+                                            <small class="text-body-secondary">
+                                            Intel Core i7 12th Gen 12700KF 2.7GHz Processor Microsoft Windows 10 Pro NVIDIA GeForce RTX 3070 Ti 8GB GDDR6X
+                                            </small>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    <p class="text-right">$67.99</p>
+                                    <p class="text-right">$1600</p>
                                 </td>
                                 <td>
-                                    <p class="text-right">2</p>
+                                    <p class="text-right">1</p>
                                 </td>
                                 <td>
-                                    <p class="text-right">$135.98</p>
+                                    <p class="text-right">$1600</p>
                                 </td>
                                 <td>
                                     <div class="media align-items-center">
@@ -148,21 +153,24 @@
                             <tr>
                                 <td>
                                     <div class="media align-items-center">
-                                        <img src="IMAGES/ProductImages/cam1.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="Camera" />
+                                        <img src="IMAGES/cam1.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="Camera" />
                                         <div>
-                                            <h6>Camera</h6>
-                                            <small class="text-body-secondary"> This is the description of the product. </small>
+                                            <h6>Canon - EOS Rebel T7 DSLR Video Two Lens Kit with EF-S 18-55mm and EF 75-300mm Lenses</h6>
+                                            <small class="text-body-secondary"> 
+                                            Take stunning pictures with vibrant colors using this EOS Rebel T7 camera. The built-in Wi-Fi makes printing 
+                                            and sharing pictures quick and easy, and the auto-focus system creates crisp images at a moment's notice. 
+                                            </small>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    <p class="text-right">$9.99</p>
+                                    <p class="text-right">$600</p>
                                 </td>
                                 <td>
                                     <p class="text-right">1</p>
                                 </td>
                                 <td>
-                                    <p class="text-right">$9.99</p>
+                                    <p class="text-right">$600</p>
                                 </td>
                                 <td>
                                     <div class="media align-items-center">

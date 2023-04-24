@@ -325,7 +325,7 @@ height: 150px; */
 }
 
 .scrollImages {
-    object-fit: cover;
+    object-fit: contain;
     height: 300px;
     width: 300px;
 }

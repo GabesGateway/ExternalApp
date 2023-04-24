@@ -56,7 +56,7 @@
                         <h3 id="product1cost" class="mt-4">$ ${THE_PRODUCT.productPrice }</h3> 	  		
                         <div class="buttons d-flex flex-row mt-5">	
                             <button class="btn btn-outline-dark buttonHover mx-3">Buy Now</button>	
-                            <button class="btn btn-outline-dark buttonHover mx-3"><a href="cartEmpty.html">Add to Cart</a></button>	
+                            <button class="btn btn-outline-dark buttonHover mx-3"><a href="cartNotSignedIn.html">Add to Cart</a></button>	
                         </div>	
                     </div>	
                 </div>	

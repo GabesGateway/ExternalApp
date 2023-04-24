@@ -21,7 +21,7 @@
 
 <body>
     <div>
-        <a href="home.html">
+        <a href="index.html">
             <img src="IMAGES/GabesGatewayLogos/DataSquid_BlueWoutline.svg" class="logoSize mx-auto d-block"><br>
         </a>
         <!-- https://bbbootstrap.com/snippets/bootstrap-create-account-signup-form-input-groups-60573468 -->

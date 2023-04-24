@@ -158,12 +158,13 @@ public class CreateUserServlet extends HttpServlet {
 			String theUserId= String.valueOf(userid);
 				
 			User theUser = UserDbUtil.getUser(theUserId);
-				
+			System.out.println(theUser.getUserID());	
 			productID = theUser.getProductID();
+			System.out.println(productID);
 			if(productID.compareTo(empty) == 0) {
 				System.out.println("productID is null");
 				System.out.println(productID);
-				RequestDispatcher dispatcher = request.getRequestDispatcher("cartEmpty.html");
+				RequestDispatcher dispatcher = request.getRequestDispatcher("cartEmptySignedIn.html");
 				dispatcher.forward(request, response);
 			}
 			else {
